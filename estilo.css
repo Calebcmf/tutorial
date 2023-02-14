@@ -1,0 +1,40 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteudo
+{
+    display:flex;
+    flex-direction: row;
+    background-color: silver;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-content: space-around;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.card
+{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 5px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    color:black;
+    font-family:monospace;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
